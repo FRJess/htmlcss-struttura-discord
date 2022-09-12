@@ -21,14 +21,17 @@
   margin: 10px;
   justify-content: space-between;
   align-items: center;
+  width: 1430px; /* MISURE DA TOGLIERE */
 }
 
 .header-bottom{
   display: flex;
-  height: 400px;
+  height: 500px;
   margin: 10px;
   flex-direction: column;
   align-items: center;
+  width: 1430px; /* MISURE DA TOGLIERE */
+
 }
 
 header .header-bottom .text{
@@ -54,19 +57,20 @@ main{
 .presentation {
   display: flex;
   justify-content: space-around;
-  margin:10px;
+  margin: 10px auto;
+  width: 1000px; /* MISURE DA TOGLIERE */
 }
 
-.feature-image{
+.feature-image{ /* MISURE DA TOGLIERE */
   width: 400px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
-.feature-text{
+.feature-text{ /* MISURE DA TOGLIERE */
   width: 400px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .two,{
@@ -77,5 +81,43 @@ main{
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 10px;
+}
+
+footer{
   margin: 10px;
+  background-color: #23272A;
+  color: #EFF2FC;
+  height: 400px;
+  width: 1430px; /* MISURE DA TOGLIERE */
+}
+
+footer section{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 10px auto;
+  width: 1000px; /* MISURE DA TOGLIERE */
+  
+}
+
+footer .social {
+  display: flex;
+  flex-direction: column; 
+  width: 20%;
+ }
+
+footer .menu{
+  padding-right: 10px;
+  width: 20%;
+}
+
+footer .menu ul {
+  list-style: none;
+}
+
+footer .menu a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
 }
