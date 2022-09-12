@@ -6,5 +6,21 @@
 
 .debug{
   border: 1px solid red;
-  background-color: rgba(200, 0, 0, .3);
+}
+
+header{
+  display: flex;
+  background-color: #3162E0;
+  height: 100px;
+  margin: 10px;
+  color: #EFF2FC;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 10px;
 }
