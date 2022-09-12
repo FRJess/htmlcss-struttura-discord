@@ -6,17 +6,47 @@
 
 .debug{
   border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.2);
 }
 
-header{
+.container{
+  color: #EFF2FC;
+  justify-content: space-between;
+}
+
+.header-top{
   display: flex;
   background-color: #3162E0;
   height: 100px;
   margin: 10px;
-  color: #EFF2FC;
   justify-content: space-between;
   align-items: center;
 }
+
+.header-bottom{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .header-bottom .text{
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+header .header-bottom .button{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
 
 main{
   display: flex;
